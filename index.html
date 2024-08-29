@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinar la Palabra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>¡Adivina la Palabra!</h1>
+        <div id="scrambled-word">_ _ _ _ _</div>
+        <div id="input-container">
+            <!-- Los campos de entrada se generan dinámicamente -->
+        </div>
+        <div id="controls">
+            <button id="random-word">Aleatorio</button>
+            <button id="reset">Reiniciar</button>
+        </div>
+        <div id="status">
+            <p>Adivinadas: <span id="attempts">0</span></p>
+            <p>Errores: <span id="errors">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
